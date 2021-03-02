@@ -1,14 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Jeff Jadulco`,
-    description: `Jeff Jadulco is a game and javascript developer`,
-    author: `Jeff Jadulco`,
-    siteUrl:
-      process.env.DEV_ENV === 1
-        ? `https://dev.jeffjadulco.com`
-        : `https://jeffjadulco.com`,
-    image: `/images/og-card.png`,
-    twitterUsername: `@jeffjadulco`,
+    title: `Oliver Maenen`,
+    description: `I-talent portfolio van Oliver Maenen`,
+    author: `Oliver Maenen`,
+    siteUrl: `https://olivermaenen.me`,
+    image: `/images/CV-foto.png`,
+
   },
   plugins: [
     {
@@ -38,8 +35,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Jeff Jadulco`,
-        short_name: `Jeff Jadulco`,
+        name: `Oliver Maenen`,
+        short_name: `Oliver Maenen`,
         start_url: `/`,
         background_color: `#2d3748`,
         theme_color: `#81E6D9`,
@@ -50,30 +47,6 @@ module.exports = {
     `gatsby-plugin-offline`,
     `gatsby-plugin-postcss`,
     `gatsby-plugin-sitemap`,
-    {
-      resolve: "gatsby-plugin-robots-txt",
-      options: {
-        host: "https://jeffjadulco.com",
-        sitemap: "https://jeffjadulco.com/sitemap.xml",
-        policy: [{ userAgent: "*", allow: "/" }],
-        env: {
-          development: {
-            policy: [{ userAgent: "*", disallow: ["/"] }],
-          },
-          production: {
-            policy: [{ userAgent: "*", allow: "/" }],
-          },
-        },
-      },
-    },
-    {
-      resolve: `gatsby-plugin-env-variables`,
-      options: {
-        whitelist: [
-          "GATSBY_GOOGLE_SITE_VERIFICATION, GOOGLE_ANALYTICS_TRACKING_ID, DEV_ENV",
-        ],
-      },
-    },
     {
       resolve: `gatsby-plugin-mdx`,
       options: {

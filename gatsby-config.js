@@ -4,7 +4,7 @@ module.exports = {
     description: `I-Talent portfolio van Oliver Maenen`,
     author: `Oliver Maenen`,
     siteUrl: `https://olivermaenen.me`,
-    image: `/images/CV-foto.png`,
+    image: `src/assets/images/CV-foto.png`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

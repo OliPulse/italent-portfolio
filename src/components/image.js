@@ -13,7 +13,11 @@ import Img from "gatsby-image"
  * - `useStaticQuery`: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-const Image = ({ path }) => {
+const Image = (props) => {
+  // if (path == null || path == "") {
+  //   path = "cv-foto.png"
+  // };
+  var test = "cv-foto.png";
   const data = useStaticQuery(graphql`
     query {
       placeholderImage: file(relativePath: { eq: "cv-foto.png" }) {

@@ -22,16 +22,16 @@ function SEO({ description, lang, meta, title, blog, ogImage }) {
             siteUrl
           }
         }
-        image: file(relativePath: { eq: "og-card.png" }) {
+        image: file(relativePath: { eq: "cv-foto.png" }) {
           childImageSharp {
-            fixed(width: 1280) {
+            fixed(width: 720) {
               src
             }
           }
         }
-        blogImage: file(relativePath: { eq: "og-card-blog.png" }) {
+        blogImage: file(relativePath: { eq: "cv-foto.png" }) {
           childImageSharp {
-            fixed(width: 1280) {
+            fixed(width: 720) {
               src
             }
           }

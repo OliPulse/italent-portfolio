@@ -6,16 +6,16 @@ const ProjectGrid = ({ showHeading }) => {
   return (
     <section className="">
       {showHeading && (
-        <h2 className="mt-32 font-normal text-accent tracking-widestest">
+        <h2 >
           PROJECTS
         </h2>
       )}
-      <ul className="mt-3 -mx-5 grid md:grid-cols-2 gap-6 md:gap-6">
+      <ul >
         {projects.map(project => {
           return (
             <li
               key={project.title}
-              className="py-5 px-6 relative group md:bg-secondary hover:bg-secondary"
+              
             >
               <div className="flex justify-between space-x-3 sm:space-x-0 pb-10">
                 <div>

@@ -58,16 +58,16 @@ const MobileNav = () => {
           ></button>
           <nav className="right-0 h-screen mt-auto py-48 px-6 fixed flex flex-col items-end font-medium text-primary tracking-widest">
             <div className="flex-grow">
-              <Link to="/">HOME</Link>
+              <Link to="/">VOORSTELLING</Link>
             </div>
             <div className="flex-grow">
-              <Link to="/blog">BLOG</Link>
+              <Link to="/activiteiten">ACTIVITEITEN</Link>
             </div>
             <div className="flex-grow">
-              <Link to="/projects">PROJECTS</Link>
+              <Link to="/selectie">SELECTIE</Link>
             </div>
             <div className="flex-grow">
-              <Link to="/about">ABOUT</Link>
+              <Link to="/reflectie">REFLECTIE</Link>
             </div>
             <ThemeToggle />
           </nav>

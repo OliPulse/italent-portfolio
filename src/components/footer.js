@@ -7,17 +7,17 @@ const Footer = _ => {
       <div className="container h-full md:max-w-screen-md lg:max-w-screen-xl m-auto px-5 md:px-20 pb-12 pt-24">
         <div className="container flex-col justify-between md:space-y-8">
           <nav className="hidden lg:flex flex-row items-center space-x-6 justify-center md:justify-end text-sm">
-            <NavLink to="/" title="Home">
-              Home
+            <NavLink to="/" title="Voorstelling">
+              Voorstelling
             </NavLink>
-            <NavLink to="/blog" title="Blog">
-              Blog
+            <NavLink to="/activiteiten" title="Activiteiten">
+              Activiteiten
             </NavLink>
-            <NavLink to="/projects" title="Projects">
-              Projects
+            <NavLink to="/selectie" title="Selectie">
+              Selectie
             </NavLink>
-            <NavLink to="/about" title="About">
-              About
+            <NavLink to="/reflectie" title="Reflectie">
+              Reflectie
             </NavLink>
           </nav>
           <div className="flex flex-col-reverse md:flex-row md:justify-between space-y-reverse space-y-8 md:space-y-0">

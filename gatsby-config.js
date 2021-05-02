@@ -8,25 +8,12 @@ module.exports = {
 
   },
   plugins: [
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID,
-      },
-    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
         path: `${__dirname}/src/assets/images`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `blog`,
-        path: `${__dirname}/content/blog`,
       },
     },
     "gatsby-image",
@@ -41,7 +28,7 @@ module.exports = {
         background_color: `#2d3748`,
         theme_color: `#81E6D9`,
         display: `minimal-ui`,
-        icon: `src/assets/images/logo-512x512.png`,
+        icon: `src/assets/images/italent/activities/pxl.png`,
       },
     },
     `gatsby-plugin-offline`,

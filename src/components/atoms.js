@@ -52,7 +52,7 @@ export const SubHeading = ({ children }) => {
 
 export const Paragraph = ({ children }) => {
   return (
-    <p className=" max-w-screen-md mb-4 font-normal text-base leading-relaxed md:leading-normal text-tertiary">
+    <p className=" max-w-screen-md mb-4 font-normal text-base leading-relaxed md:leading-normal text-tertiary text-justify">
       {children}
     </p>
   )

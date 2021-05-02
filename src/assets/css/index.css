@@ -108,8 +108,9 @@ body {
 }
 
 .blob-bg {
-  transform: scale(2.85);
+  transform: scale(3);
   z-index: -10;
+  width: 1000;
 }
 
 .blob-rotate {
@@ -158,4 +159,71 @@ aside.sticky {
 
 .accent-gradient:hover {
   background-position: right center;
+}
+
+.activity-card {
+  margin: 30px 1% 30px 1%;
+  padding: 8px;
+  /* border: 3px solid hsl(0, 0%, 100%, 10%); */
+  width: 30%;
+  height: auto;
+  float: left;
+}
+
+.activity-card {
+  margin-top: 30px;
+}
+
+.activity-card p {
+  text-align: justify;
+}
+
+.activity-card img{
+  width: 100%;
+  max-height: 130px;
+  object-fit: cover;
+  margin: auto;
+  overflow: hidden;
+}
+
+.break {
+  clear: both;
+}
+
+.selected-activity-card {
+  margin: auto;
+  margin-bottom: 32px;
+  width: 70%;
+  padding: 32px;
+}
+
+.selected-activity-card img {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.half-image {
+  float: left;
+  width: 48%;
+  margin: 1%;
+}
+
+.third-image {
+  float: left;
+  width: 31.33%;
+  margin: 1%;
+}
+
+details {
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+
+details summary:hover {
+  cursor: pointer;
+}
+
+.center-image {
+  margin: auto;
 }

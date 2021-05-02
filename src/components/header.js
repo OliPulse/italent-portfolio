@@ -1,4 +1,3 @@
-import { Link } from "gatsby"
 import React from "react"
 import ThemeToggle from "./themeToggle"
 import { NavLink, BlobHeader } from "./atoms"
